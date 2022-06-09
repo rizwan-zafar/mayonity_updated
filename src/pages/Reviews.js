@@ -109,7 +109,7 @@ export default function Reviews() {
             />
 
             <BreadcrumbOne
-                breadcrumbImage="assets/img/bg-img/7.jpg"
+                breadcrumbImage="assets/img/backimages/reviewback.jpg"
                 breadcrumbTitle="Client Reviews"
                 homePageUrl="/"
                 homePageText="Home"
