@@ -1,0 +1,112 @@
+
+
+[
+    {
+        "id": 1,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Lim Jannat",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {
+        "id": 2,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "H. Riyadh",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 3,
+        "thumbnail": "assets/img/bg-img/t3.png",
+        "name": "Suha R",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 4,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "A Islam",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {
+        "id": 5,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 6,
+        "thumbnail": "assets/img/bg-img/t3.png",
+        "name": "H Khan",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {
+        "id": 7,
+        "thumbnail": "assets/img/bg-img/t1.png",
+        "name": "Shai Hello",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {
+        "id": 8,
+        "thumbnail": "assets/img/bg-img/t2.png",
+        "name": "Lim Suha",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    }
+]

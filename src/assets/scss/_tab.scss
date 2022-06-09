@@ -1,0 +1,117 @@
+/* Tab CSS */
+
+.tab--area {
+    .nav-tabs {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        border-bottom: none;
+        margin-bottom: 30px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 7px;
+            border-radius: 50px;
+            background-color: $gray;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+        }
+
+        .nav-item {
+            margin-bottom: 0;
+            flex-grow: 1;
+
+            .nav-link {
+                position: relative;
+                z-index: 1;
+                border: none;
+                text-align: center;
+                font-size: 1rem;
+                border-radius: 6px;
+                padding: .5rem 1rem;
+                font-weight: 700;
+                color: $heading;
+                width: 100%;
+
+                @media #{$breakpoint-lg} {
+                    padding: 1rem;
+                    font-size: 1.125rem;
+                }
+
+                &::before {
+                    @media #{$breakpoint-lg} {
+                        transition-duration: 500ms;
+                        content: '';
+                        position: absolute;
+                        width: 0%;
+                        height: 7px;
+                        background-color: $warning;
+                        border-radius: 0 6px 6px 0;
+                        bottom: -20px;
+                        left: 50%;
+                    }
+                }
+
+                &::after {
+                    @media #{$breakpoint-lg} {
+                        transition-duration: 500ms;
+                        content: '';
+                        position: absolute;
+                        width: 0%;
+                        height: 7px;
+                        background-color: $warning;
+                        border-radius: 6px 0 0 6px;
+                        bottom: -20px;
+                        right: 50%;
+                    }
+                }
+
+                &.active {
+                    background-color: $warning;
+
+                    &::before {
+                        width: 50%;
+                    }
+
+                    &::after {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    .tab--text {
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                color: $heading;
+                font-weight: 500;
+
+                i, svg {
+                    display: inline-block;
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-right: 0.5rem;
+                    line-height: 1.25rem;
+                }
+            }
+        }
+
+        .progress {
+            height: 5px;
+            background-color: $gray;
+            margin-bottom: .25rem;
+
+            .progress-bar {
+                background-color: $primary;
+            }
+        }
+    }
+}

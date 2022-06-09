@@ -1,0 +1,38 @@
+[
+    {   
+        "id": 1,
+        "tabKey": "tab1",
+        "tabTitle": "Design & Development",
+        "tabText": ["<h6>Design Development</h6>", 
+        "<h2 class='mb-3'>We provide the best quality design & dev solution.</h2>", 
+        "<p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>",
+        "<ul class='list-unstyled'> <li><i class='alert-info bi bi-check'></i> Vanilla JavaScript</li> <li><i class='alert-info bi bi-check'></i>Bootstrap 5</li> <li><i class='alert-info bi bi-check'></i> Creative Design</li> </ul>",
+        "<div class='progress mt-4'> <div class='progress-bar' role='progressbar' style='width: 96%;' aria-valuenow='96' aria-valuemin='0' aria-valuemax='100'></div> </div>", "<span class='d-block fz-12'>Clients Satisfaction Rate: 96%</span>"
+        ],
+        "tabImage": "assets/img/illustrator/4.png"
+    },
+    {
+        "id": 2,
+        "tabKey": "tab2",
+        "tabTitle": "Digital Marketing",
+        "tabText": ["<h6>Digital Marketing</h6>", 
+        "<h2 class='mb-3'>We provide the best digital marketing solution.</h2>", 
+        "<p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>",
+        "<ul class='list-unstyled'> <li><i class='alert-info bi bi-check'></i> Vanilla JavaScript</li> <li><i class='alert-info bi bi-check'></i>Bootstrap 5</li> <li><i class='alert-info bi bi-check'></i> Creative Design</li> </ul>",
+        "<div class='progress mt-4'> <div class='progress-bar' role='progressbar' style='width: 85%;' aria-valuenow='85' aria-valuemin='0' aria-valuemax='100'></div> </div>", "<span class='d-block fz-12'>Clients Satisfaction Rate: 85%</span>"
+        ],
+        "tabImage": "assets/img/illustrator/bg-1.png"
+    },
+    {
+        "id": 3,
+        "tabKey": "tab3",
+        "tabTitle": "Business Solution",
+        "tabText": ["<h6>Business Solution</h6>", 
+        "<h2 class='mb-3'>We provide the best for business solution.</h2>", 
+        "<p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>",
+        "<ul class='list-unstyled'> <li><i class='alert-info bi bi-check'></i> Vanilla JavaScript</li> <li><i class='alert-info bi bi-check'></i>Bootstrap 5</li> <li><i class='alert-info bi bi-check'></i> Creative Design</li> </ul>",
+        "<div class='progress mt-4'> <div class='progress-bar' role='progressbar' style='width: 79%;' aria-valuenow='79' aria-valuemin='0' aria-valuemax='100'></div> </div>", "<span class='d-block fz-12'>Clients Satisfaction Rate: 79%</span>"
+        ],
+        "tabImage": "assets/img/illustrator/bg-2.png"
+    }
+]

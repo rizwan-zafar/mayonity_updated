@@ -1,0 +1,24 @@
+/* Your custom CSS here... */
+.Home
+{
+     
+    width: auto;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 1.375rem 1rem;  
+}
+.Home:hover{
+    color:#ffc107
+}
+.Home:focus {
+    
+    color: #ffc107;
+}
+@media only screen and (max-width: 992px)
+{
+.Home{
+    padding: 0;
+    padding-bottom: 1vh;
+    margin-left: 6px;
+}
+}

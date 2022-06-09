@@ -1,0 +1,75 @@
+/* FAQ CSS */
+
+.faq--area {
+    position: relative;
+    z-index: 1;
+
+    .faq-content {
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-lg} {
+                font-size: 2.125rem;
+            }
+
+            @media #{$breakpoint-xl} {
+                font-size: 2.75rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+.faq--accordian {
+    .accordion-item {
+        border: 0;
+
+        button {
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 1.25rem 1.5rem;
+            text-align: left;
+            width: 100%;
+            background-color: $primary;
+            color: $white;
+            border-radius: .375rem;
+
+            &:focus {
+                box-shadow: none;
+            }
+    
+            &.collapsed {
+                background-color: $gray;
+                color: $heading;
+            }
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &:first-of-type {
+            button {
+                border-top-left-radius: .5rem;
+                border-top-right-radius: .5rem;
+            }
+        }
+
+        &:last-of-type {
+            button {
+                border-bottom-left-radius: .5rem;
+                border-bottom-right-radius: .5rem;
+            }
+        }
+    }
+
+    .card-body {
+        p {
+            font-size: 1rem;
+        }
+    }
+}

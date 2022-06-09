@@ -1,0 +1,101 @@
+/* Breadcrumb CSS */
+
+.breadcrumb-wrapper {
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    background-color: $gray;
+
+    @media #{$breakpoint-md} {
+        height: 260px;
+    }
+
+    @media #{$breakpoint-lg} {
+        height: 300px;
+    }
+
+    @media #{$breakpoint-xl} {
+        height: 350px;
+    }
+
+    .breadcrumb-content {
+        margin-top: 50px;
+
+        @media #{$breakpoint-lg} {
+            margin-top: 80px;
+        }
+    }
+
+    .breadcrumb-title {
+        font-size: 1.375rem;
+        color: $white;
+        text-align: center;        
+        letter-spacing: -.5px;
+
+        @media #{$breakpoint-md} {
+            font-size: 1.75rem;
+        }
+
+        @media #{$breakpoint-lg} {
+            font-size: 2.375rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .breadcrumb {
+        padding: 0;
+        margin-bottom: 0;
+        background-color: transparent;
+
+        .breadcrumb-item {
+            line-height: 1;
+            font-weight: 700;
+            color: $text-gray;
+
+            a {
+                font-size: 1rem;
+                color: $white;
+                line-height: 1;
+
+                &:hover,
+                &:focus {
+                    color: $warning;
+                }
+            }
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: $white;
+            content: "\f285";
+            font-family: bootstrap-icons !important;
+            font-size: .75rem;
+            position: relative;
+            top: 3px;
+        }
+    }
+
+    &.breadcrumb-bg-light {
+        .breadcrumb-title {
+            color: $heading;
+        }
+
+        .breadcrumb {
+            .breadcrumb-item {
+                color: $text;
+
+                a {
+                    color: $heading;
+
+                    &:hover,
+                    &:focus {
+                        color: $primary;
+                    }
+                }
+            }
+
+            .breadcrumb-item+.breadcrumb-item::before {
+                color: $heading;
+            }
+        }
+    }
+}

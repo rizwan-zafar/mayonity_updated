@@ -1,0 +1,92 @@
+/* Counter CSS */
+
+.cool-facts-wrapper {
+    position: relative;
+    z-index: 1;
+
+    .cta-background-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: .3;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: -100;
+
+        img {
+            max-height: 100%;
+        }
+    }
+}
+
+.single-cool-fact {
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        font-size: 2rem;
+
+        @media #{$breakpoint-lg} {
+            font-size: 3rem;
+        }
+    }
+}
+
+.circle-animation {
+    .circle1 {
+        position: absolute;
+        top: 12%;
+        left: 23%;
+        width: 10px;
+        height: 10px;
+        background-color: $warning;
+        border-radius: 50%;
+        z-index: -1;
+        animation: circleAnimation linear 4s infinite;
+    }
+
+    .circle2 {
+        position: absolute;
+        top: 70%;
+        left: 12%;
+        width: 10px;
+        height: 10px;
+        background-color: $heading;
+        border-radius: 50%;
+        z-index: -1;
+        animation: circleAnimation linear 7s infinite;
+    }
+
+    .circle3 {
+        position: absolute;
+        top: 60%;
+        left: 85%;
+        width: 10px;
+        height: 10px;
+        background-color: $primary;
+        border-radius: 50%;
+        z-index: -1;
+        animation: circleAnimation linear 6s infinite;
+    }
+
+    .circle4 {
+        position: absolute;
+        top: 120%;
+        left: 90%;
+        width: 10px;
+        height: 10px;
+        background-color: $success;
+        border-radius: 50%;
+        z-index: -1;
+        animation: circleAnimation linear 3s infinite;
+    }
+}
+
+@keyframes circleAnimation {
+    50% {
+        transform: scale(2);
+    }
+}

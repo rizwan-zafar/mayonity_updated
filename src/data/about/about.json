@@ -1,0 +1,38 @@
+[
+    {
+        "bgColor": "",
+        "icon": "bi-app-indicator",
+        "iconBgColor": "",
+        "title": "App Development",
+        "titleColor": "",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "subtitleColor": ""
+    },
+    {
+        "bgColor": "",
+        "icon": "bi-lightbulb",
+        "iconBgColor": "bg-success",
+        "title": "Web Development",
+        "titleColor": "",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "subtitleColor": ""
+    },
+    {
+        "bgColor": "",
+        "icon": "bi-bar-chart",
+        "iconBgColor": "bg-warning",
+        "title": "WordPress Development",
+        "titleColor": "",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "subtitleColor": ""
+    },
+    {
+        "bgColor": "bg-primary border-0",
+        "icon": "bi-basket",
+        "iconBgColor": "bg-info",
+        "title": "Ecommerce | Shopify",
+        "titleColor": "text-white",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "subtitleColor": "text-white"
+    }
+]

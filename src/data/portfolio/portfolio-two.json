@@ -1,0 +1,418 @@
+[
+    {
+        "id": 1,
+        "image": "assets/img/bg-img/p13.jpg",
+        "largeImage": "assets/img/bg-img/p13.jpg",
+        "title": "Web Solution",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "apps",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {   
+                "id": 1,
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {   
+                "id": 2,
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    },
+    {   
+        "id": 2,
+        "image": "assets/img/bg-img/p14.jpg",
+        "largeImage": "assets/img/bg-img/p14.jpg",
+        "title": "App Design",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "branding",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    },
+    {   
+        "id": 3,
+        "image": "assets/img/bg-img/p15.jpg",
+        "largeImage": "assets/img/bg-img/p15.jpg",
+        "title": "Marketing",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "marketing",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    },
+    {   
+        "id": 4,
+        "image": "assets/img/bg-img/p16.jpg",
+        "largeImage": "assets/img/bg-img/p16.jpg",
+        "title": "eCommerce Solution",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "apps",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "assets/img/bg-img/p17.jpg",
+        "largeImage": "assets/img/bg-img/p17.jpg",
+        "title": "Branding",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "branding",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "assets/img/bg-img/p18.jpg",
+        "largeImage": "assets/img/bg-img/p18.jpg",
+        "title": "UX/UI Design",
+        "shortDesc": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.",
+        "firstIcon": "bi-heart",
+        "secondIcon": "bi-link-45deg",
+        "filterKey": "marketing",
+        "imageGroup": [
+            {
+                "img1": "assets/img/bg-img/p10.jpg",
+                "img2": "assets/img/bg-img/p14.jpg"
+            },
+            {
+                "img1": "assets/img/bg-img/p13.jpg",
+                "img2": "assets/img/bg-img/p11.jpg"
+            }
+        ],
+        "projectInfo": [
+            {   
+                "id": 1,
+                "title": "Date:",
+                "desc": "17 Oct 2022"
+            },
+            {
+                "id": 2,
+                "title": "Client:",
+                "desc": "Designing World"
+            },
+            {
+                "id": 3,
+                "title": "Project Link:",
+                "desc": "themeforest.net/user/designing-world"
+            }
+        ],
+        "inDetails": [
+            {
+                "title": "Mission:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            },
+            {
+                "title": "Vision:",
+                "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+            }
+        ],
+        "socialShare": [
+            {
+                "id": 1,
+                "iconName": "bi-facebook",
+                "link": "facebook.com"
+            },
+            {
+                "id": 2,
+                "iconName": "bi-twitter",
+                "link": "twitter.com"
+            },
+            {
+                "id": 3,
+                "iconName": "bi-linkedin",
+                "link": "linkedin.com"
+            },
+            {
+                "id": 4,
+                "iconName": "bi-slack",
+                "link": "slack.com"
+            }
+        ]
+    }
+]

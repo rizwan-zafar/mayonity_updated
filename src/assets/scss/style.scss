@@ -1,0 +1,85 @@
+/*
+[Master Stylesheet]
+
+Template Name: Saasbox - Multipurpose HTML Template for Saas & Agency
+Template Author: Designing World
+Template Author URL: https://themeforest.net/user/designing-world
+Version: 2.0.0
+Last Updated: Sep 26, 2021
+*/
+
+/*
+[Table of Contents]
+    Google Fonts
+    Template Responsive
+    Template Variables
+    Basic Styles
+        + Reboot CSS
+        + Shortcodes CSS
+    Components Styles
+            + Preloader CSS
+            + Header CSS
+            + Hero CSS
+            + About CSS
+            + Tab CSS
+            + Service CSS
+            + Pricing CSS
+            + Feature CSS
+            + Team CSS
+            + Partner CSS
+            + Portfolio CSS
+            + Feedback CSS
+            + Video CSS
+            + Counter CSS
+            + Blog CSS
+            + Footer CSS
+            + CTA CSS
+            + Cookie CSS
+            + FAQ CSS
+            + Breadcrumb CSS
+            + Shop CSS
+            + Error CSS
+            + Register CSS
+            + Contact CSS
+            + Demo CSS
+
+[font-family]
+'Manrope', sans-serif;
+*/
+
+/* Import Fonts & All CSS Files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import "responsive.scss";
+@import "variables.scss";
+@import "reboot.scss";
+@import "shortcode.scss";
+
+@import "header.scss";
+@import "hero.scss";
+@import "about.scss";
+@import "tab.scss";
+
+@import "service.scss";
+@import "pricing.scss";
+@import "feature.scss";
+@import "team.scss";
+
+@import "partner.scss";
+@import "portfolio.scss";
+@import "feedback.scss";
+@import "video.scss";
+
+@import "counter.scss";
+@import "blog.scss";
+@import "footer.scss";
+@import "cta.scss";
+
+@import "faq.scss";
+@import "breadcrumb.scss";
+@import "shop.scss";
+@import "error.scss";
+
+@import "register.scss";
+@import "contact.scss";
+@import "demo.scss";

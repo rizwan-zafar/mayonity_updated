@@ -1,0 +1,110 @@
+[
+    {   
+        "id": 1,
+        "image": "assets/img/bg-img/t1.png",
+        "name": "Lim Jannat",
+        "designation": "@lim_jannat",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-fill",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {
+        "id": 2,
+        "image": "assets/img/bg-img/t2.png",
+        "name": "Hasnain R",
+        "designation": "@hasnain_r",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-half",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {   
+        "id": 3,
+        "image": "assets/img/bg-img/t3.png",
+        "name": "Ayan Doe",
+        "designation": "@ayan_doe",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {   
+        "id": 4,
+        "image": "assets/img/bg-img/t1.png",
+        "name": "Lim Jannat",
+        "designation": "@lim_jannat",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-fill",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {   
+        "id": 5,
+        "image": "assets/img/bg-img/t2.png",
+        "name": "Hasnain R",
+        "designation": "@hasnain_r",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-half",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {   
+        "id": 6,
+        "image": "assets/img/bg-img/t3.png",
+        "name": "Ayan Doe",
+        "designation": "@ayan_doe",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    },
+    {   
+        "id": 7,
+        "image": "assets/img/bg-img/t1.png",
+        "name": "Lim Jannat",
+        "designation": "@lim_jannat",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-fill",
+        "testimonial": "You've saved our business! Thanks guys, keep up the good work!"
+    },
+    {   
+        "id": 8,
+        "image": "assets/img/bg-img/t2.png",
+        "name": "Hasnain R",
+        "designation": "@hasnain_r",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star-half",
+        "testimonial": "I strongly recommend to everyone interested in running a business!"
+    },
+    {   
+        "id": 9,
+        "image": "assets/img/bg-img/t3.png",
+        "name": "Ayan Doe",
+        "designation": "@ayan_doe",
+        "ratingOne": "bi-star-fill",
+        "ratingTwo": "bi-star-fill",
+        "ratingThree": "bi-star-fill",
+        "ratingFour": "bi-star-fill",
+        "ratingFive": "bi-star",
+        "testimonial": "Absolutely wonderful! I wish I would have thought of it first. Excellent product!"
+    }
+]

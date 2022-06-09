@@ -1,0 +1,193 @@
+/* :: Pricing CSS */
+
+.pricing-card {
+    position: relative;
+    z-index: 1;
+    border-radius: .75rem;
+    padding: 40px;
+    background-color: $white;
+    overflow: hidden;
+
+    @media #{$breakpoint-lg} {
+        padding: 60px 50px;
+    }
+
+    .pricing-heading {
+        .price {
+            width: 60%;
+            max-width: 60%;
+            flex: 0 0 60%;
+        }
+
+        .price-icon {
+            img {
+                max-height: 5rem;
+            }
+        }
+
+        .price-quantity {
+            position: relative;
+            z-index: 1;
+            margin-right: 1rem;
+
+            .monthly-price,
+            .yearly-price {
+                transition: all 400ms;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                font-size: 2.75rem;
+                font-weight: 700;
+
+                span {
+                    display: block;
+                    color: $text;
+                }
+            }
+
+            .yearly-price {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+
+    &.yearly-plan {
+        .pricing-heading {
+            .price-quantity {
+                .yearly-price {
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                .monthly-price {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    .pricing-desc {
+        ul>li {
+            position: relative;
+            z-index: 1;
+            font-size: 14px;
+            color: $heading;
+            margin-bottom: .75rem;
+            padding-left: 25px;
+            font-weight: 700;
+
+            &::before {
+                content: '\f633';
+                font-family: bootstrap-icons !important;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                color: $success;
+            }
+
+            &.availability-no {
+                &::before {
+                    content: '\f659';
+                    color: $danger;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &.active {
+        z-index: 100;
+        background-color: $white;
+        transform: scale(1.05);
+        box-shadow: 0 0 88px 2px rgba(47, 91, 234, 0.125);
+
+        @media #{$breakpoint-lg} {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.saasbox-pricing-plan-area {
+    position: relative;
+    z-index: 1;
+
+    &.price2 {
+        .pricing-card {
+            border: 2px solid $white;
+
+            &.active {
+                border-color: $warning;
+                transform: scale(1);
+            }
+        }
+
+        .pricing-heading {
+            .price {
+                width: 100%;
+                max-width: 100%;
+                flex: 0 0 100%;
+
+                >span {
+                    display: block;
+                    width: 4rem;
+                    height: 4rem;
+                    text-align: center;
+                    font-size: 1.75rem;
+                    margin-bottom: 1rem;
+                    color: $white;
+                    line-height: 4rem;
+                }
+            }
+
+            .price-quantity {
+                margin-right: 0;
+                min-height: 3.5rem;
+
+                .monthly-price,
+                .yearly-price {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .pricing-desc {
+            ul>li {
+                padding-left: 0;
+
+                &::before {
+                    display: none;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.pricing-table-switch {
+    text-align: center;
+
+    .form-switch .form-check-input {
+        width: 3rem;
+        border-radius: 8rem;
+        height: 1.375rem;
+    }
+
+    label {
+        cursor: pointer;
+        > span {
+            top: -1.125rem;
+            right: 0;
+            transform: translateX(50%);
+        }
+    }
+}

@@ -1,0 +1,311 @@
+/* Portfolio CSS */
+
+.saasbox-portfolio-area {
+    overflow-y: inherit;
+}
+
+.portfolio-wrapper,
+.portfolio2-wrapper {
+    position: relative;
+    z-index: 1;
+
+    .tns-controls>button {
+        transition-duration: 500ms;
+        background-color: $white;
+        color: $heading;
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 0;
+        outline: none;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        left: 28px;
+        font-size: 1.25rem;
+        box-shadow: 0 .5rem 2.5rem rgba(0, 0, 0, 0.3);
+
+        &[data-controls="next"] {
+            left: auto;
+            right: 28px;
+        }
+
+        &[disabled=""] {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+.single-portfolio-area {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+    border-radius: 12px;
+    transition-duration: 400ms;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        transition-duration: 400ms;
+    }
+
+    .overlay-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: all ease-in-out 500ms;
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        background-color: $warning;
+        bottom: -100px;
+        left: 0;
+        z-index: 100;
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0;
+        visibility: hidden;
+
+        @media #{$breakpoint-lg} {
+            height: 80px;
+        }
+
+        .portfolio-links {
+            display: flex;
+            align-items: center;
+
+            >a {
+                color: $heading;
+                padding-left: 1rem;
+                font-size: 1rem;
+
+                .bi-link-45deg {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    &:hover,
+    &:focus {
+
+        img {
+            transform: translateY(-20px);
+        }
+
+        .overlay-content {
+            bottom: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.creative-porfolio-area {
+    position: relative;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.creative-porfolio-line {
+    position: relative;
+    z-index: 1;
+
+    .line1,
+    .line2,
+    .line3,
+    .line4,
+    .line5,
+    .line6 {
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -5;
+        background-color: $text-gray;
+    }
+
+    .line1 {
+        left: 14.28%;
+    }
+
+    .line2 {
+        left: 28.56%;
+    }
+
+    .line3 {
+        left: 42.84%;
+    }
+
+    .line4 {
+        left: 57.12%;
+    }
+
+    .line5 {
+        left: 71.40%;
+    }
+
+    .line6 {
+        left: 85.68%;
+    }
+}
+
+.project-card {
+    position: relative;
+    z-index: 1;
+    background-color: $primary;
+    padding: 3rem 1rem;
+    border-radius: 12px;
+
+    @media #{$breakpoint-xl} {
+        padding: 4rem 1rem;
+    }
+
+    span {
+        font-size: 120px;
+        color: $white;
+        position: absolute;
+        z-index: -10;
+        opacity: 0.1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 100;
+    }
+
+    h3,
+    p,
+    a {
+        color: $white;
+    }
+}
+
+.portfolio-content {
+    .row {
+        .col-12:nth-child(2) {
+            .project-card {
+                background-color: $heading;
+            }
+        }
+
+        .col-12:nth-child(3) {
+            .project-card {
+                background-color: $warning;
+
+                span {
+                    color: $heading;
+                }
+
+                h3,
+                p,
+                a {
+                    color: $heading;
+                }
+            }
+        }
+    }
+}
+
+.project-img {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 0.75rem;
+
+    img {
+        border-radius: 0.75rem;
+        transition-duration: 500ms;
+    }
+
+    &:hover,
+    &:focus {
+
+        img {
+            transform: scale3d(1.2, 1.2, 1);
+        }
+    }
+}
+
+.project-share-info {
+    a {
+        display: inline-block;
+        margin-right: 15px;
+        width: 36px;
+        height: 36px;
+        border: 2px solid $border;
+        text-align: center;
+        line-height: 32px;
+        border-radius: 50%;
+        color: $text;
+
+        &:hover,
+        &:focus {
+            border-color: $primary;
+            background-color: $primary;
+            color: $white;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.project-details-shots {
+    position: relative;
+    z-index: 1;
+
+    .video-card {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        background-color: transparent;
+        z-index: 10;
+        left: 0;
+    }
+}
+
+.filters-button-group > button {
+    &.active {
+        background-color: #041a3b;
+    }
+}
+
+.related-project-area {   
+
+    .tns-outer {
+        position: relative;
+        z-index: 1;
+    }
+
+    .tns-controls > button {
+        background-color: $text-gray;
+        border: 0;
+        padding: .25rem .5rem;
+        border-radius: .25rem;
+        position: absolute;
+        z-index: 1;
+        top: -55px;
+        right: 0;
+        color: $heading;
+
+        @media #{$breakpoint-lg} {
+            padding: .5rem 1rem;
+            top: -85px;
+        }
+
+        &[data-controls="prev"] {
+            right: 40px;
+
+            @media #{$breakpoint-lg} {
+                right: 60px;
+            }
+        }
+    }
+}

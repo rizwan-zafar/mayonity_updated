@@ -1,0 +1,26 @@
+[
+    {
+        "quote": "Try 15 days free trial",
+        "heading": "Powerful SEO <br /> &amp; business service.",
+        "subHeading": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "btnColor": "btn-info",
+        "btnUrl": "/",
+        "btnText": "All Features"
+    },
+    {
+        "quote": "Free to use",
+        "heading": "Easy solutions <br /> to make life easier.",
+        "subHeading": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "btnColor": "btn-warning",
+        "btnUrl": "/",
+        "btnText": "Get Quote"
+    },
+    {
+        "quote": "Secure & Stable",
+        "heading": "Awesome, Smart &amp; Creative",
+        "subHeading": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "btnColor": "btn-primary",
+        "btnUrl": "/",
+        "btnText": "Contact Us"
+    }
+]

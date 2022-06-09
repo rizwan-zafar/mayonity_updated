@@ -1,0 +1,358 @@
+/* Shortcodes */
+
+.fz-16 {
+    font-size: 16px !important;
+}
+
+.fz-14 {
+    font-size: 14px !important;
+}
+
+.fz-12 {
+    font-size: 12px !important;
+}
+
+ul li,
+ol li {
+    line-height: 1.75;
+}
+
+.btn {
+    font-weight: 700;
+    padding: .5rem 1rem;
+    border: 0 !important;
+    font-size: 14px;
+
+    @media #{$breakpoint-md} {
+        padding: .625rem 1.25rem;
+        border-radius: .3rem;
+    }
+
+    @media #{$breakpoint-lg} {
+        padding: .875rem 1.75rem;
+        font-size: 1rem;
+        border-radius: .375rem;
+    }
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    padding: .375rem .75rem;
+    font-size: 14px;
+
+    @media #{$breakpoint-md} {
+        padding: .437rem .875rem;
+    }
+
+    @media #{$breakpoint-lg} {
+        padding: .5rem 1.25rem;
+    }
+}
+
+.btn-link {
+
+    &:hover,
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.btn-minimal {
+    padding: 0 !important;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    color: $text;
+
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -0.125rem;
+        left: 0;
+        content: "";
+        border-radius: 4px;
+        background-color: $text-gray;
+    }
+
+    &::after {
+        transition-duration: 500ms;
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: -0.125rem;
+        left: 0;
+        content: "";
+        border-radius: 4px;
+    }
+
+    i {
+        margin-left: 0.125rem;
+    }
+
+    &:hover,
+    &:focus {
+        box-shadow: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    &.btn-primary {
+        color: $primary;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $primary;
+            }
+        }
+    }
+
+    &.btn-dark {
+        color: $dark;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $dark;
+            }
+        }
+    }
+
+    &.btn-success {
+        color: $success;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $success;
+            }
+        }
+    }
+
+    &.btn-warning {
+        color: $warning;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $warning;
+            }
+        }
+    }
+
+    &.btn-info {
+        color: $info;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $info;
+            }
+        }
+    }
+
+    &.btn-danger {
+        color: $danger;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $danger;
+            }
+        }
+    }
+
+    &.btn-light {
+        color: $white;
+
+        &:hover,
+        &:focus {
+            &::after {
+                width: 100%;
+                background-color: $white;
+            }
+        }
+    }
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-overlay {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background-color: $dark;
+        opacity: 0.76;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+.bg-gray {
+    background-color: $gray !important;
+}
+
+.bg-text-gray {
+    background-color: $text-gray !important;
+}
+
+.curve-shape-top {
+    @media #{$breakpoint-lg} {
+        position: absolute !important;
+        width: 110%;
+        background-color: $white;
+        content: "";
+        height: 60px;
+        top: -42px;
+        left: -5%;
+        transform: rotate(-1deg);
+        z-index: 100 !important;
+    }
+}
+
+.curve-shape-bottom {
+    @media #{$breakpoint-lg} {
+        position: absolute !important;
+        width: 110%;
+        height: 60px;
+        background-color: $white;
+        content: "";
+        bottom: -42px;
+        left: -5%;
+        transform: rotate(-1deg);
+        z-index: 100 !important;
+    }
+}
+
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+
+    @media #{$breakpoint-lg} {
+        margin-bottom: 80px;
+    }
+
+    span {
+        color: $primary;
+    }
+
+    h6 {
+        color: $text;
+        text-transform: capitalize;
+
+        @media #{$breakpoint-lg} {
+            font-size: 1.25rem;
+        }
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1.625rem;
+
+        @media #{$breakpoint-md} {
+            font-size: 1.875rem;
+        }
+
+        @media #{$breakpoint-lg} {
+            font-size: 2.125rem;
+        }
+
+        @media #{$breakpoint-xl} {
+            font-size: 2.5rem;
+        }
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+
+        @media #{$breakpoint-lg} {
+            font-size: 18px;
+        }
+
+        &:empty {
+            display: none;
+        }
+    }
+
+    &.white {
+        span {
+            color: $warning;
+        }
+
+        h6,
+        h2,
+        p {
+            color: $white;
+        }
+    }
+}
+
+.card {
+    border-color: $border;
+    border-radius: 8px;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(8px - 1px);
+    border-top-right-radius: calc(8px - 1px);
+}
+
+.border,
+.border-left,
+.border-right,
+.border-bottom,
+.border-top {
+    border-color: $border !important;
+}
+
+.border-dashed {
+    border-top: 2px dashed $border !important;
+}
+
+#scrollTopButton {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    transition: all 500ms;
+    z-index: 9999;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .625rem;
+    background-color: $dark;
+}

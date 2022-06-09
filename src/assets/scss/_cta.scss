@@ -1,0 +1,76 @@
+/* CTA Area */
+
+.cta-area {
+    .cta-text {
+        h2 {
+            font-size: 1.5rem;
+            color: $white;
+
+            @media #{$breakpoint-md} {
+                font-size: 2rem;
+            }
+
+            @media #{$breakpoint-xl} {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    &.cta4 {
+        .cta-text {
+
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+
+                @media #{$breakpoint-md} {
+                    font-size: 1.75rem;
+                }
+
+                @media #{$breakpoint-lg} {
+                    font-size: 2.125rem;
+                }
+
+                @media #{$breakpoint-xl} {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .cta-thumb-group {
+            img {
+                border-radius: 12rem;
+            }
+
+            .col-4:nth-child(1) {
+                img {
+                    transform: translateY(-20px);
+
+                    @media #{$breakpoint-lg} {
+                        transform: translateY(-50px);
+                    }
+                }
+            }
+
+            .col-4:nth-child(2) {
+                img {
+                    transform: translateY(20px);
+
+                    @media #{$breakpoint-lg} {
+                        transform: translateY(50px);
+                    }
+                }
+            }
+
+            .col-4:nth-child(3) {
+                img {
+                    transform: translateY(-20px);
+
+                    @media #{$breakpoint-lg} {
+                        transform: translateY(-50px);
+                    }
+                }
+            }
+        }
+    }
+}

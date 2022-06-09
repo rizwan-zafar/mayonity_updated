@@ -1,0 +1,64 @@
+/* Team CSS */
+
+.saasbox-team-area {
+    position: relative;
+    z-index: 1;
+    background-color: $warning;
+    overflow: hidden;
+
+    .section-heading {
+        .dot-pattern {
+            width: 100px;
+            height: 180px;
+            background-repeat: repeat;
+            position: absolute;
+            top: -40px;
+            left: -50px;
+            z-index: -5;
+            opacity: 0.8;
+        }
+    }
+}
+
+/* Single Team CSS */
+
+.team-card {
+    transform: rotateX(-1deg);
+
+    .member-img {
+        position: relative;
+        z-index: 1;
+        width: 180px;
+        margin: 0 auto;
+        padding: .75rem;
+        border: 2px dashed $border;
+
+        img {
+            border-radius: 50%;
+            max-width: 100%;
+        }
+
+        &::before {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            content: "";
+            top: 34px;
+            left: 3px;
+            border-radius: 50%;
+            background-color: $warning;
+        }
+
+        &::after {
+            width: calc(100% - 3rem);
+            height: calc(100% - 3rem);
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: 50%;
+            // border: 2px solid rgba(255, 255, 255, .75);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/* Partner CSS */
+
+.partner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    > * {
+        margin: .5rem;
+
+        @media #{$breakpoint-lg} {
+            margin: 1rem;
+        }
+
+        img {
+            max-height: 1.5rem;
+
+            @media #{$breakpoint-lg} {
+                max-height: 2rem;
+            }
+        }
+    }
+}

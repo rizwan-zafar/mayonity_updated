@@ -1,0 +1,103 @@
+/* Service Area */
+
+.service-card {
+    transition-duration: 500ms;
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(47, 91, 234, 0.05);
+    overflow: hidden;
+
+    &::after {
+        transition-duration: 500ms;
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: $white;
+        opacity: 0.15;
+        top: 20px;
+        content: "";
+        left: 20px;
+        z-index: -1;
+    }
+
+    .icon {
+        position: relative;
+        z-index: 10;
+        transition-duration: 500ms;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        margin: 0 auto 30px;
+        background-color: $heading;
+        border-radius: 50%;
+        color: $white;
+        font-size: 1.75rem;
+
+        i {
+            line-height: 4rem;
+        }
+    }
+
+    h5 {
+        transition-duration: 500ms;
+        margin-bottom: 1rem;
+        font-size: 1.125rem;
+
+        @media #{$breakpoint-lg} {
+            font-size: 1.25rem;
+        }
+    }
+
+    p {
+        transition-duration: 500ms;
+        margin-bottom: 0;
+    }
+
+    &:hover,
+    &:focus {
+        transform: translateY(-10px);
+        box-shadow: 0 18px 56px rgba(47, 91, 234, 0.135);
+        background-color: $primary;
+        border-color: $primary;
+
+        .icon {
+            &::after {
+                border-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        h5,
+        p {
+            color: $white;
+        }
+
+        .btn-minimal {
+            color: $white;
+        }
+    }
+}
+
+.service2-card {
+    border: 0;
+    background-color: transparent;
+
+    .card-body {
+        padding: 0;
+    }
+
+    .icon {
+        margin-bottom: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        background-color: $primary;
+        border-radius: 50%;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}

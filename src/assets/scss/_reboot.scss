@@ -1,0 +1,246 @@
+/* Reboot CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: $fonts;
+    color: $text;
+    overflow-x: hidden;
+    overflow-y: inherit;
+    scroll-behavior: smooth;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $fonts;
+    color: $heading;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+p {
+    font-family: $fonts;
+    font-size: 1rem;
+}
+
+a,
+a:hover,
+a:focus {
+    font-family: $fonts;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: $heading;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:required,
+textarea:required {
+    box-shadow: none !important;
+}
+
+input:invalid,
+textarea:invalid {
+    box-shadow: none !important;
+}
+
+button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Container */
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 320px;
+}
+
+@media (min-width:400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 360px;
+    }
+}
+
+@media (min-width:480px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 420px;
+    }
+}
+
+@media (min-width:576px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 520px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 700px;
+    }
+}
+
+@media (min-width:992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 940px;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+@media (min-width:1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+/* Spacing */
+
+.mt-120 {
+    margin-top: 70px;
+
+    @media #{$breakpoint-lg} {
+        margin-top: 120px;
+    }
+}
+
+.mb-120 {
+    margin-bottom: 70px;
+
+    @media #{$breakpoint-lg} {
+        margin-bottom: 120px;
+    }
+}
+
+.mt-70 {
+    margin-top: 50px;
+
+    @media #{$breakpoint-lg} {
+        margin-top: 70px;
+    }
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-70 {
+    margin-bottom: 50px;
+
+    @media #{$breakpoint-lg} {
+        margin-bottom: 70px;
+    }
+}
+
+.mb-80 {
+    margin-bottom: 50px;
+
+    @media #{$breakpoint-lg} {
+        margin-bottom: 80px;
+    }
+}
+
+.mb-100 {
+    margin-bottom: 70px;
+
+    @media #{$breakpoint-lg} {
+        margin-bottom: 100px;
+    }
+}
+
+.pt-120 {
+    padding-top: 70px;
+
+    @media #{$breakpoint-lg} {
+        padding-top: 120px;
+    }
+}
+
+.pb-120 {
+    padding-bottom: 70px;
+
+    @media #{$breakpoint-lg} {
+        padding-bottom: 120px;
+    }
+}
+
+/* Box Shadow */
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(47, 91, 234, .075) !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(47, 91, 234, .15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(47, 91, 234, .175) !important;
+}

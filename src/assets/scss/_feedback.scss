@@ -1,0 +1,254 @@
+/* Client Feedback CSS */
+
+.feedback-2 {
+    background-image: linear-gradient(to top, rgba(255, 240, 220, 0), rgba(255, 240, 220, 1));
+}
+
+.feedback-card {
+    background-color: $white;
+
+    .client-info {
+        .client-thumb {
+            flex: 0 0 40px;
+            max-width: 40px;
+            width: 40px;
+            background-color: $info;
+
+            span {
+                width: 1rem;
+                height: 1rem;
+                background-color: $primary;
+                color: $white;
+                position: absolute;
+                top: -4px;
+                right: -4px;
+                text-align: center;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .ratings>i {
+        margin-right: 0.125rem;
+    }
+}
+
+.client-feedback-content {
+    .tns-nav {
+        margin-top: 1rem;
+        text-align: center;
+
+        button {
+            transition-duration: 300ms;
+            border: 0;
+            outline: none;
+            width: .5rem;
+            height: .5rem;
+            background-color: $text;
+            margin: 0 .25rem;
+            border-radius: 50%;
+
+            &.tns-nav-active {
+                background-color: $primary;
+            }
+        }
+    }
+}
+
+.circle-testimonial-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    border: 1px solid $text-gray;
+    margin: 0 auto;
+
+    @media #{$breakpoint-sm} {
+        width: 500px;
+        height: 500px;
+    }
+
+    .circle-tes-sub-wrap1 {
+        width: 80%;
+        height: 80%;
+        top: 10%;
+        left: 10%;
+        z-index: 1;
+        border: 1px solid $text-gray;
+    }
+
+    .circle-tes-sub-wrap2 {
+        width: 60%;
+        height: 60%;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+        border: 1px solid $text-gray;
+    }
+
+    .circle-tes-sub-wrap3 {
+        width: 40%;
+        height: 40%;
+        top: 30%;
+        left: 30%;
+        z-index: 1;
+        border: 1px solid $text-gray;
+    }
+
+    .circle-tes-sub-wrap4 {
+        width: 20%;
+        height: 20%;
+        top: 40%;
+        left: 40%;
+        z-index: 1;
+        border: 1px solid $text-gray;
+    }
+}
+
+.cir-testimonial {
+    background-color: $white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+    border: 1px solid $border;
+    padding: 3px;
+    cursor: pointer;
+    z-index: 100;
+    animation: tesZoomInOut 2s linear 0s infinite;
+
+    >img {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    &.tes1 {
+        top: -14px;
+        left: 160px;
+
+        @media #{$breakpoint-sm} {
+            top: -11px;
+            width: 41px;
+            height: 41px;
+        }
+    }
+
+    &.tes2 {
+        top: 91px;
+        left: 275px;
+
+        @media #{$breakpoint-sm} {
+            left: 280px;
+        }
+    }
+
+    &.tes3 {
+        top: 230px;
+        left: 21px;
+
+        @media #{$breakpoint-sm} {
+            left: 28px;
+            width: 47px;
+            height: 47px;
+        }
+    }
+
+    &.tes4 {
+        bottom: 24px;
+        right: 90px;
+
+        @media #{$breakpoint-sm} {
+            bottom: 29px;
+        }
+    }
+
+    &.tes5 {
+        bottom: 63px;
+        right: 183px;
+
+        @media #{$breakpoint-sm} {
+            right: 333px;
+            width: 41px;
+            height: 41px;
+        }
+    }
+
+    &.tes6 {
+        bottom: 185px;
+        right: 149px;
+
+        @media #{$breakpoint-sm} {
+            bottom: 181px;
+        }
+    }
+
+    &.tes7 {
+        top: 194px;
+        right: -2px;
+
+        @media #{$breakpoint-sm} {
+            top: 137px;
+            width: 41px;
+            height: 41px;
+        }
+    }
+
+    &.tes8 {
+        top: 70px;
+        left: -4px;
+
+        @media #{$breakpoint-sm} {
+            top: 215px;
+            left: 190px;
+            width: 29px;
+            height: 29px;
+        }
+    }
+}
+
+@keyframes tesZoomInOut {
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.testimonial-popover {
+    font-family: $fonts;
+    border: 0;
+    border-radius: .4rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+
+    .popover-header {
+        font-size: .875rem;
+        background-color: $warning;
+        color: $heading;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: calc(.4rem - 1px);
+        border-top-right-radius: calc(.4rem - 1px);
+    }
+
+    .popover-body {
+        color: $heading;
+        font-weight: 500;
+    }
+}
+
+.testimonial-popover.bs-popover-auto[data-popper-placement^="bottom"]>.popover-arrow::before,
+.testimonial-popover.bs-popover-bottom>.popover-arrow::before {
+    border-bottom-color: $warning;
+    top: 1px;
+}
+
+.testimonial-popover.bs-popover-auto[data-popper-placement^="bottom"]>.popover-arrow::after,
+.testimonial-popover.bs-popover-bottom>.popover-arrow::after {
+    border-bottom-color: $warning;
+}
+
+.testimonial-popover.bs-popover-auto[data-popper-placement^="bottom"] .popover-header::before,
+.testimonial-popover.bs-popover-bottom .popover-header::before {
+    border-bottom: 1px solid $warning;
+}
+.poptest{
+    max-width: 100vh !important;
+}

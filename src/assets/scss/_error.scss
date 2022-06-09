@@ -1,0 +1,13 @@
+/* Error CSS */
+
+.saasbox-error-area {
+    text-align: center;
+
+    h5 {
+        font-size: 1.5rem;
+
+        @media #{$breakpoint-lg} {
+            font-size: 2rem;
+        }
+    }
+}

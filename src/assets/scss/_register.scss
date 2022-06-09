@@ -1,0 +1,60 @@
+/* Register CSS */
+
+.register-card {
+    p>a {
+
+        color: $primary;
+    }
+}
+
+.register-form {
+    position: relative;
+    z-index: 1;
+
+    .form-group {
+        position: relative;
+        z-index: 1;
+
+        .form-control {
+            border: 0;
+            border: 2px solid transparent;
+            font-size: 14px;
+
+            &:focus {
+                border-color: $primary;
+            }
+        }
+    }
+}
+
+.login-meta-data {
+    .forgot-password {
+        color: $primary;
+        font-size: 16px;
+    }
+
+    .custom-checkbox .custom-control-label::before {
+        border-radius: 50%;
+    }
+}
+
+.register-area {
+    position: relative;
+    z-index: 1;
+}
+
+#comingSoonClock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    span {
+        font-size: 1rem;
+        color: $heading;
+        font-weight: 700;
+
+        @media #{$breakpoint-lg} {
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "memberImage": "assets/img/bg-img/9.jpg",
+        "memberName": "L. Sarah",
+        "designation": "Creative Designer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 2,
+        "memberImage": "assets/img/bg-img/16.jpg",
+        "memberName": "H. Riyadh",
+        "designation": "Full Stack Developer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 3,
+        "memberImage": "assets/img/bg-img/9.jpg",
+        "memberName": "Shaila Afrin",
+        "designation": "UX/UI Designer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 4,
+        "memberImage": "assets/img/bg-img/16.jpg",
+        "memberName": "Ridu Nadim",
+        "designation": "Frontend Designer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 5,
+        "memberImage": "assets/img/bg-img/9.jpg",
+        "memberName": "Samantha S.",
+        "designation": "HR Manager",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 6,
+        "memberImage": "assets/img/bg-img/16.jpg",
+        "memberName": "Ah. Ahmed",
+        "designation": "Creative Designer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 7,
+        "memberImage": "assets/img/bg-img/9.jpg",
+        "memberName": "L. Doe",
+        "designation": "Sales Manager",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    },
+    {
+        "id": 8,
+        "memberImage": "assets/img/bg-img/16.jpg",
+        "memberName": "L. Suri",
+        "designation": "Lead Designer",
+        "contactUrl": "#",
+        "contactText": "Contact with"
+    }
+]

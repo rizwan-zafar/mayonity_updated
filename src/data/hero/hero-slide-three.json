@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "catagory": ["Powerful", "Easy to use", "Free"],
+        "title": "Grow up faster with the Saasbox software.",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "btnGroup": [
+            {
+                "btnColor": "btn-warning",
+                "btnUrl": "/",
+                "btnText": "Start Now"
+            },
+            {
+                "btnColor": "btn-warning",
+                "btnUrl": "/",
+                "btnText": "See Features"
+            }
+        ],
+        "image": "assets/img/illustrator/2.png"
+    },
+    {
+        "id": 2,
+        "catagory": ["Powerful", "Easy to use", "Free"],
+        "title": "Get more revenue with the Saasbox software.",
+        "subtitle": "It's crafted with the latest trend of design & coded with all modern approaches.",
+        "btnGroup": [
+            {
+                "btnColor": "btn-warning",
+                "btnUrl": "/",
+                "btnText": "Discover Now"
+            },
+            {
+                "btnColor": "btn-warning",
+                "btnUrl": "/",
+                "btnText": "See Features"
+            }
+        ],
+        "image": "assets/img/illustrator/3.png"
+    }
+]

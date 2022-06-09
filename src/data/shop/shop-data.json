@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "productImage": "assets/img/bg-img/shop1.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Bonsai Tree",
+        "salePrice": "$13.99",
+        "oldPrice": "$16.78",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop3.jpg",
+            "assets/img/bg-img/shop4.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "19",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 2,
+        "productImage": "assets/img/bg-img/shop2.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Milk Cookie Biscuit",
+        "salePrice": "$8.58",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "09",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 3,
+        "productImage": "assets/img/bg-img/shop3.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Flower Tree",
+        "salePrice": "$11.45",
+        "oldPrice": "$16.87",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop3.jpg"
+        ],
+        "stock": "65",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 4,
+        "productImage": "assets/img/bg-img/shop4.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Sony PS4 Original",
+        "salePrice": "$78.49",
+        "oldPrice": "$96.38",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop4.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "187",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 5,
+        "productImage": "assets/img/bg-img/shop5.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Young Living Patchouili",
+        "salePrice": "$16.99",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop4.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "45",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 6,
+        "productImage": "assets/img/bg-img/shop6.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Onne Beauty",
+        "salePrice": "$67.15",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop3.jpg"
+        ],
+        "stock": "66",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 7,
+        "productImage": "assets/img/bg-img/shop7.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Camera Sticker",
+        "salePrice": "$45.99",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop2.jpg",
+            "assets/img/bg-img/shop3.jpg",
+            "assets/img/bg-img/shop4.jpg"
+        ],
+        "stock": "03",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 8,
+        "productImage": "assets/img/bg-img/shop8.jpg",
+        "favIcon": "bi-heart",
+        "productName": "iPad",
+        "salePrice": "$78",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop1.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "12",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    },
+    {
+        "id": 9,
+        "productImage": "assets/img/bg-img/shop9.jpg",
+        "favIcon": "bi-heart",
+        "productName": "Luxurious Shoe",
+        "salePrice": "$76.38",
+        "oldPrice": "",
+        "addToCartIcon": "bi-cart",
+        "productSlideImages": [
+            "assets/img/bg-img/shop3.jpg",
+            "assets/img/bg-img/shop4.jpg",
+            "assets/img/bg-img/shop5.jpg"
+        ],
+        "stock": "36",
+        "productDesc": "It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template. It's crafted with the latest trend of design &amp; coded with all modern approaches."
+    }
+]
