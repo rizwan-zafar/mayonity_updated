@@ -1,40 +1,67 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from "react";
+import { useEffect, useState } from "react";
+ import ScrollAnimation from "react-animate-on-scroll";
 import Header from "../components/header/Header";
 import BreadcrumbTwo from "../components/breadcrumb/BreadcrumbTwo";
 import Footer from "../components/footer/Footer";
-import PortfolioData from "../data/portfolio/portfolio-two.json";
 import SEO from "../components/common/SEO";
-
+import { BackEndUrlContext } from '../BackEndUrlContext'
 export default function PortfolioStandard() {
-    const allItems = PortfolioData;
-    const [items, setItems] = useState(allItems);
-console.log(items)
+    const secondIcon ="bi-link-45deg";
+ 
+    const BackEndUrl = React.useContext(BackEndUrlContext);
+    const [portfolioProjects, setportfolioProjects] = useState([]);
+    const [items, setItems] = useState([]);
+ 
     const filterItems = (catag) => {
-        const updatedItems = PortfolioData.filter((elem) => {
-            return elem.filterKey === catag;
-        })
-        setItems(updatedItems);
+        console.log(catag)
+        var updatedItems=null;
+        if(catag==='All')
+        {
+            updatedItems=portfolioProjects
+        }
+        else{
+             updatedItems = items.filter((elem) => {
+            
+                return elem.field_pp_catagory === catag;
+            })
+        }
+       
+        setportfolioProjects(updatedItems); 
     }
 
-    const portfolioItems = items.map((ele, index) => (
+ 
+
+     useEffect(() => {
+        const fetchPortfolio = async () => {
+            try{
+            const portfolioProjectsResponse = await (await fetch(BackEndUrl+"/api/portfolio-projects?_format=json")).json();
+            setportfolioProjects(portfolioProjectsResponse);
+            setItems(portfolioProjectsResponse);
+            console.log("all protfolio",portfolioProjectsResponse);
+            }catch(e)
+            {
+                console.log("Internet Connection Problem",e);
+            }
+        }
+        fetchPortfolio();
+
+    }, [])
+
+    const portfolioItems = portfolioProjects.map((ele, index) => (
         <div key={index}  className={`col-12 col-sm-6 col-lg-4 portfolio-item ${ele.filterKey}`}>
             <ScrollAnimation animateIn="fadeInUp" animateOut="fadeInOut" delay={50} animateOnce={true}>
                 <div className="single-portfolio-area">
-                    <img src={`${process.env.PUBLIC_URL}/${ele.image}`} alt={ele.title} />
+                    <img src={`${BackEndUrl}/${ele.field_pp_image}`} alt="not Found" />
 
                     <div className="overlay-content" style={{"height": "60px"}}>
                         <div className="portfolio-title">
-                            <h6 className="mb-0">{ele.title}</h6>
+                            <h6 className="mb-0">{ele.field_pp_catagory}</h6>
                         </div>
                         <div className="portfolio-links">
-                            <button className="bg-transparent border-0" >
-                                <i className={`bi ${ele.firstIcon}`}></i>
-                            </button>
-                            <Link to={`${process.env.PUBLIC_URL}/portfolio-details/${ele.id}`} >
-                                <i className={`bi ${ele.secondIcon}`}></i>
-                            </Link>
+                             <a href={`${ele.field_pp_project_link}`} target="_blank" >
+                                <i className={`bi ${secondIcon}`}></i>
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -51,7 +78,7 @@ console.log(items)
                 headerStyle="header-2" 
                 buttonColor="btn-warning" 
             />
-
+ 
             <BreadcrumbTwo 
                 breadcrumbTitle="Portfolio Standard" 
                 homePageUrl="/" 
@@ -65,7 +92,7 @@ console.log(items)
                         <button 
                             className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
                             type="button" 
-                            onClick={() => setItems(allItems)}
+                            onClick={() => setportfolioProjects(items)}
                         >
                             All
                         </button>
@@ -73,25 +100,25 @@ console.log(items)
                         <button 
                             className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
                             type="button" 
-                            onClick={() => filterItems("apps")}
+                            onClick={() => filterItems("Website")}
+                        >
+                            Website
+                        </button>
+
+                        <button 
+                            className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
+                            type="button" 
+                            onClick={() => filterItems("Web App")}
+                        >
+                            Web App
+                        </button>
+
+                        <button 
+                            className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
+                            type="button" 
+                            onClick={() => filterItems("App")}
                         >
                             Apps
-                        </button>
-
-                        <button 
-                            className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
-                            type="button" 
-                            onClick={() => filterItems("marketing")}
-                        >
-                            Marketing
-                        </button>
-
-                        <button 
-                            className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
-                            type="button" 
-                            onClick={() => filterItems("branding")}
-                        >
-                            Branding
                         </button>
                     </div>
                 </div>

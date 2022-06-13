@@ -80,9 +80,9 @@ export default function PortfolioOne() {
                     </div>
                     <div className="portfolio-links">
 
-                        <Link to={`/portfolio-details/${item.field_pp_project_link}`} >
+                        <a href={`${item.field_pp_project_link}`} target="_blank">
                             <i className={`bi bi-link-45deg`}></i>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

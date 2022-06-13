@@ -2,7 +2,6 @@ import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import BreadcrumbOne from "../components/breadcrumb/BreadcrumbOne";
 import Header from "../components/header/Header";
-import ReviewsData from "../data/testimonial/testimonial-one.json";
 import Footer from "../components/footer/Footer";
 import SEO from "../components/common/SEO";
 import { BackEndUrlContext } from '../BackEndUrlContext'
@@ -11,7 +10,7 @@ import Popover from 'react-bootstrap/Popover';
 
 export default function Reviews() {
 
-    const ratingOne = "bi-star-fill";
+    // const ratingOne = "bi-star-fill";
     const BackEndUrl = useContext(BackEndUrlContext);
     const [all_testimonial, setAll_testimonial] = useState([]);
     useEffect(() => {
@@ -123,9 +122,9 @@ export default function Reviews() {
                     </div>
 
                     <div className="text-center">
-                        <Link className="btn btn-primary mt-5" to="#">
+                        {/* <Link className="btn btn-primary mt-5" to="#">
                             Load More Reviews
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

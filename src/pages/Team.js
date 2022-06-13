@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
+
 import Header from "../components/header/Header";
 import BreadcrumbOne from "../components/breadcrumb/BreadcrumbOne";
 import Divider from "../components/divider/Divider";
 import CtaThree from "../components/cta/CtaThree";
 import Footer from "../components/footer/Footer";
-import TeamData from "../data/team/team-member.json";
-import SEO from "../components/common/SEO";
+ import SEO from "../components/common/SEO";
 import React from "react";
 import { BackEndUrlContext } from '../BackEndUrlContext'
 
