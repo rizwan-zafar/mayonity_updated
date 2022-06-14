@@ -76,7 +76,7 @@ export default function PortfolioOne() {
                 <img src={`https://www.admin.mayonity.com${item.field_pp_image}`} alt={item.field_pp_catagory} />
                 <div className="overlay-content">
                     <div className="portfolio-title">
-                        <h6 className="mb-0">{item.field_pp_catagory}</h6>
+                        <h6 className="mb-0">{item.field_pp_clint}</h6>
                     </div>
                     <div className="portfolio-links">
 
@@ -91,7 +91,7 @@ export default function PortfolioOne() {
 
 
     return (
-        <div className="saasbox-portfolio-area" >
+        <div className="saasbox-portfolio-area">
             {/* Starting API Integration */}
             <SectionHeadingTwo
                 subtitle={portfolioText?.field_ps_subheading ? portfolioText?.field_ps_subheading : "Our Creations"}

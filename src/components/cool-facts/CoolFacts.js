@@ -49,21 +49,21 @@ export default function CoolFacts() {
                 <div className="row g-4 justify-content-center">
                     {/* Single Cool Fact */}
                     <SingleCoolFact 
-                        countUpValue={milestoneData?.field_cs_count1 ? milestoneData?.field_cs_count1 : "12"}
+                        countUpValue={milestoneData?.field_cs_count1 ? milestoneData?.field_cs_count1 : "11+"}
                         suffix="+" 
                         title={milestoneData?.field_cs_count1_text ? milestoneData?.field_cs_count1_text : "Total Projects"}
                     />
                     
                     {/* Single Cool Fact */}
                     <SingleCoolFact 
-                        countUpValue={milestoneData?.field_cs_count2 ? milestoneData?.field_cs_count2 : "7"}
+                        countUpValue={milestoneData?.field_cs_count2 ? milestoneData?.field_cs_count2 : "4+"}
                         suffix="+" 
                         title={milestoneData?.field_cs_count2_text ? milestoneData?.field_cs_count2_text : "Team Members"}
                     />
                     
                     {/* Single Cool Fact */}
                     <SingleCoolFact 
-                        countUpValue={milestoneData?.field_cs_count3 ? milestoneData?.field_cs_count3 : "1219"} 
+                        countUpValue={milestoneData?.field_cs_count3 ? milestoneData?.field_cs_count3 : "15+"} 
                         suffix="+" 
                         title={milestoneData?.field_cs_count3_text ? milestoneData?.field_cs_count3_text : "Coffee Served"}
                     />

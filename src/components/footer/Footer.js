@@ -39,7 +39,7 @@ export default function Footer(props) {
                                 url: "#"
                             },
                             {
-                                title: "Mayonity", 
+                                title: " Mayonity", 
                                 url: "#"
                             }
                         ]}
@@ -80,31 +80,31 @@ export default function Footer(props) {
                         email="Email: official@mayonity.com" 
                         social={[
                             {
-                                url: "https://facebook.com", 
+                                url: "#", 
                                 tootipPosition: "top", 
                                 title: "Facebook", 
                                 iconName: "bi-facebook"
                             },
                             {
-                                url: "https://twitter.com", 
+                                url: "#", 
                                 tootipPosition: "top", 
                                 title: "Twitter", 
                                 iconName: "bi-twitter"
                             },
                             {
-                                url: "https://instagram.com", 
+                                url: "#", 
                                 tootipPosition: "top", 
                                 title: "Instagram", 
                                 iconName: "bi-instagram"
                             },
                             {
-                                url: "https://linkedin.com", 
+                                url: "#", 
                                 tootipPosition: "top", 
                                 title: "Linkedin", 
                                 iconName: "bi-linkedin"
                             },
                             {
-                                url: "https://youtube.com", 
+                                url: "#", 
                                 tootipPosition: "top", 
                                 title: "YouTube", 
                                 iconName: "bi-youtube"
@@ -120,11 +120,11 @@ export default function Footer(props) {
                 footerNavTwo={[
                     {
                         title: "Privacy Policy", 
-                        url: "#"
+                        url: "/coming-soon"
                     },
                     {
                         title: "Terms & Conditions", 
-                        url: "#"
+                        url: "/coming-soon"
                     },
                     {
                         title: "Get Support", 

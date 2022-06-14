@@ -56,7 +56,7 @@ export default function PortfolioStandard() {
 
                     <div className="overlay-content" style={{"height": "60px"}}>
                         <div className="portfolio-title">
-                            <h6 className="mb-0">{ele.field_pp_catagory}</h6>
+                            <h6 className="mb-0">{ele.field_pp_clint}</h6>
                         </div>
                         <div className="portfolio-links">
                              <a href={`${ele.field_pp_project_link}`} target="_blank" >
@@ -116,10 +116,22 @@ export default function PortfolioStandard() {
                         <button 
                             className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
                             type="button" 
-                            onClick={() => filterItems("App")}
+                            onClick={() => filterItems("Mobile Apps")}
                         >
-                            Apps
+                         Mobile Apps
                         </button>
+                        <button 
+                            className="position-relative btn btn-primary btn-sm mx-1 mb-2" 
+                            type="button" 
+                            onClick={() => filterItems("Dashboard")}
+                        >
+                            Dashboard
+                        </button>
+
+                      
+
+                       
+                        
                     </div>
                 </div>
 
