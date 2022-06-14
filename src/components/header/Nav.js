@@ -77,11 +77,11 @@ export default function SaasboxNav() {
                 <Link to="/checkout">Checkout</Link>
             </NavDropdown> */}
 
-            <div className="Home">
+            {/* <div className="Home">
                 <Link className="Home header-1-textcolor" to="/blogs">
                     Blog
                 </Link>
-            </div>
+            </div> */}
 
             {/* <NavDropdown className="sb-dropdown-menu" title="Blog" id="dropdown4">
                 <Link to="/blog-1">Blog One</Link>

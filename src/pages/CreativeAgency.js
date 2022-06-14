@@ -4,17 +4,16 @@ import HeroOne from "../components/hero/HeroOne";
 import Divider from "../components/divider/Divider";
 import AboutOne from "../components/about/AboutOne";
 import CoolFacts from "../components/cool-facts/CoolFacts";
-import Features from "../components/features/Features";
-import Services from "../components/services/Services";
-import SaasboxTab from "../components/tab/Tab";
-import PricingTableOne from "../components/pricing/PricingOne";
-import Team from "../components/team/Team";
-import PartnerOne from "../components/partner/PartnerOne";
 import Cta1 from "../components/cta/CtaOne";
 import PortfolioOne from "../components/portfolio/PortfolioOne";
 import TestimonialTwo from "../components/testimonial/TestimonialTwo";
-
-import BlogOne from "../components/blog/BlogOne";
+import Team from "../components/team/Team";
+// import Features from "../components/features/Features";
+// import Services from "../components/services/Services";
+// import SaasboxTab from "../components/tab/Tab";
+// import PricingTableOne from "../components/pricing/PricingOne";
+// import PartnerOne from "../components/partner/PartnerOne";
+// import BlogOne from "../components/blog/BlogOne";
 import SEO from "../components/common/SEO";
 import { useContext, useEffect, useState } from "react";
 import { BackEndUrlContext } from '../BackEndUrlContext'
