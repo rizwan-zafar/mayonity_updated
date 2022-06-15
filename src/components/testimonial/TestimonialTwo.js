@@ -81,7 +81,7 @@ export default function TestimonialTwo() {
             <SectionHeading 
                 subtitle="Testimonials" 
                 heading="Read some reviews from our beloved clients about our work." 
-                para="It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template." 
+                para="Mayonity is trusted by multiple companies, universities and government agencies." 
             />
 
             <div className="container">

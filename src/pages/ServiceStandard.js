@@ -60,7 +60,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-success"
                         iconName="bi-columns"
                         heading="Website Designing"
-                        para="It's crafted with the latest trend of design."
+                        para="Front-end web designing in latest designing technologies."
                         url="/"
                         btnText="Learn more"
                     />
@@ -70,7 +70,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-warning"
                         iconName="bi-columns"
                         heading="Website Developement"
-                        para="It's crafted with the latest trend of design."
+                        para="Web development in cutting edge technologies using modern standards."
                         url="/"
                         btnText="Learn more"
                     />
@@ -80,7 +80,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-info"
                         iconName="bi-pie-chart"
                         heading="Wordpress Website"
-                        para="It's crafted with the latest trend of design."
+                        para="High-quality WordPress Solutions to create engaging digital experiences"
                         url="/"
                         btnText="Learn more"
                     />
@@ -93,7 +93,7 @@ export default function ServiceStandard() {
                         iconBgColor=""
                         iconName="bi-app-indicator"
                         heading="Apps Designing"
-                        para="It's crafted with the latest trend of design."
+                        para="Engaging and interactive mobile view designs."
                         url="/"
                         btnText="Learn more"
                     />
@@ -103,7 +103,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-primary"
                         iconName="bi bi-app"
                         heading="Apps Developement"
-                        para="It's crafted with the latest trend of design."
+                        para="Native, hybrid, and cross-platform mobile applications."
                         url="/"
                         btnText="Learn more"
                     />
@@ -114,7 +114,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-danger"
                         iconName="bi bi-cart-plus"
                         heading="E-Commerce Web & App"
-                        para="It's crafted with the latest trend of design."
+                        para="Create engaging and flexible ecommerce platforms."
                         url="/"
                         btnText="Learn more"
                     />
@@ -123,7 +123,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-danger"
                         iconName="bi-sun"
                         heading="UI / UX Desinging"
-                        para="It's crafted with the latest trend of design."
+                        para="Latest UI/UX technologies and trends to design responsive realistic apps."
                         url="/"
                         btnText="Learn more"
                     />
@@ -133,7 +133,7 @@ export default function ServiceStandard() {
                         iconBgColor="bg-success"
                         iconName="bi bi-textarea"
                         heading="Data Entiry"
-                        para="It's crafted with the latest trend of design."
+                        para="Pros can fill your spreadsheets and databases with speed and accuracy."
                         url="/"
                         btnText="Learn more"
                     />
@@ -143,7 +143,7 @@ export default function ServiceStandard() {
                         iconBgColor=""
                         iconName="bi-play"
                         heading="Suggestions & Solutions"
-                        para="It's crafted with the latest trend of design."
+                        para="Top minds to perform a successful transformation of your enterprise."
                         url="/"
                         btnText="Learn more"
                     />

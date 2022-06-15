@@ -29,9 +29,9 @@ export default function AboutTwo() {
 
     const rightSideText = [
         {
-            "subtitle": "What We Do", 
-            "title": "Increase your business growth with Saasbox.",
-            "para": "It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template."
+            "subtitle": "About Mayonity", 
+            "title": "Accelerating enterprises to adopt new technologies.",
+            "para": "We are a software development and consultancy company that delivers cutting edge solutions for global organisations and technology startups."
         },
         {
             "btnColor": "btn-info",
@@ -44,12 +44,12 @@ export default function AboutTwo() {
         {
             "id": "1",
             "title": "Collect your data",
-            "para": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eaque? Ullam minus illum quasi reprehenderit."
+            "para": "Our first step is to analyze and document your high-level software requirements. We will have many discussions, develop user stories, and document them in our project management tools."
         },
         {
             "id": "2",
             "title": "Design prototype & development",
-            "para": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eaque? Ullam minus illum quasi reprehenderit."
+            "para": "The next step is to design and develop your software application using industry standard development tools. We ensure product quality by running tests, detect coding issues, and enforce certain development rules prior to deployment."
         }
     ]
 

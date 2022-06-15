@@ -8,7 +8,7 @@ export default function FeatureTwo() {
             "iconColor": "text-primary", 
             "icon": "bi-bootstrap-fill",
             "title": "Bootstrap 5.1",
-            "para": "Build fast, responsive sites with Bootstrap.",
+            "para": "Fast, responsive sites with Bootstrap.",
             "btnColor": "btn-primary",
             "btnUrl": "/",
             "btnText": "Learn more...",
@@ -28,7 +28,7 @@ export default function FeatureTwo() {
             "iconColor": "text-danger", 
             "icon": "bi-bullseye",
             "title": "Pug Supported",
-            "para": "It compiles to HTML and has a simplified syntax.",
+            "para": "Compiles to HTML and has a simplified syntax.",
             "btnColor": "btn-danger",
             "btnUrl": "/",
             "btnText": "Learn more...",
@@ -38,7 +38,7 @@ export default function FeatureTwo() {
             "iconColor": "text-info", 
             "icon": "bi-braces",
             "title": "SCSS Featured",
-            "para": "Sass is the stable &amp; powerful grade CSS.",
+            "para": "The stable & powerful grade CSS.",
             "btnColor": "btn-dark",
             "btnUrl": "/",
             "btnText": "Learn more...",
@@ -75,7 +75,7 @@ export default function FeatureTwo() {
                 subtitle="Why choose us" 
                 subtitleColor="text-dark" 
                 heading="We have been running many successful business studios." 
-                para="It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template." 
+                para="We are specialized in latest software technologies: from Javascript frameworks to Python, from cloud technologies to mobile development, from database management systems to web technologies." 
                 paraColor="text-dark" 
             />
         
