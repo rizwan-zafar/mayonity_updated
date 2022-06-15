@@ -120,11 +120,11 @@ export default function Footer(props) {
                 footerNavTwo={[
                     {
                         title: "Privacy Policy", 
-                        url: "/coming-soon"
+                        url: "/coming"
                     },
                     {
                         title: "Terms & Conditions", 
-                        url: "/coming-soon"
+                        url: "/coming"
                     },
                     {
                         title: "Get Support", 
