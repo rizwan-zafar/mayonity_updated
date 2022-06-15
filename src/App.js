@@ -39,6 +39,8 @@ import ServiceStandard from "./pages/ServiceStandard";
 import ServiceCreative from "./pages/ServiceCreative";
 import PricingPlan from "./pages/PricingPlan";
 import FAQ from "./pages/Faq";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 import Contact from "./pages/Contact";
 import Reviews from "./pages/Reviews";
 import ComingSoon from "./pages/ComingSoon";
@@ -91,6 +93,8 @@ export default function App() {
         <Route path="/team" element={<AllTeamMembers />} />
         <Route path="/pricing-plan" element={<PricingPlan />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
@@ -107,5 +111,3 @@ export default function App() {
     </div>
   );
 }
-
-// "proxy": "http://mayonity-admin.local.com:8080",
