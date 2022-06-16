@@ -7,35 +7,35 @@ import PartnerOne from "../components/partner/PartnerOne";
 import Footer from "../components/footer/Footer";
 // import AboutFour from "../components/about/AboutFour";
 import SEO from "../components/common/SEO";
- import Team from "../components/team/Team";
- import AboutTwo from "../components/about/AboutTwo";
+import Team from "../components/team/Team";
+import AboutTwo from "../components/about/AboutTwo";
 
- 
+
 export default function AboutStandard() {
-    return(
+    return (
         <div>
-            <SEO title="About Standard" />
+            <SEO title="About Us" />
 
-            <Header 
-                brandLogo="assets/img/core-img/logo.png" 
-                headerStyle="header-2" 
-              
-                buttonColor="btn-warning" 
+            <Header
+                brandLogo="assets/img/core-img/logo.png"
+                headerStyle="header-2"
+
+                buttonColor="btn-warning"
             />
 
-            <BreadcrumbTwo 
-                breadcrumbTitle="About Standard" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                currentPageText="About" 
+            <BreadcrumbTwo
+                breadcrumbTitle="About Us"
+                homePageUrl="/"
+                homePageText="Home"
+                currentPageText="About"
             />
 
             <Divider />
 
-  
+
             {/* <AboutFour /> */}
             <AboutTwo />
-            
+
             <Divider />
 
             <FeatureTwo />
@@ -43,25 +43,21 @@ export default function AboutStandard() {
             <TestimonialTwo />
 
             <Divider />
-            {/* <Team /> */}
-
-            <Divider />
-
-
+           
             <PartnerOne />
 
             <Divider />
 
 
-<Team />
+            <Team />
             <Divider />
 
             <div className="container">
                 <div className="border" />
             </div>
 
-            <Footer 
-                footerLogo="assets/img/core-img/logo.png" 
+            <Footer
+                footerLogo="assets/img/core-img/logo.png"
                 footerStyle=""
             />
         </div>

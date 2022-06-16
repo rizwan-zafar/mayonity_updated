@@ -6,43 +6,73 @@ export default function FeatureTwo() {
     const featuresData = [
         {
             "iconColor": "text-primary", 
-            "icon": "bi-bootstrap-fill",
-            "title": "Bootstrap 5.1",
-            "para": "Fast, responsive sites with Bootstrap.",
+            "icon": "bi-file-earmark-code",
+            "title": "React Js",
+            "para": "Fast, responsive web|web app in React Js.",
             "btnColor": "btn-primary",
             "btnUrl": "/",
             "btnText": "Learn more...",
             "animationDelay": 0
         },
         {
-            "iconColor": "text-warning", 
-            "icon": "bi-code-slash",
-            "title": "Vanilla JS",
-            "para": "The write less, do more with JavaScript Library.",
-            "btnColor": "btn-warning",
+            "iconColor": "text-success", 
+            "icon": "bi-bootstrap-fill",
+            "title": "Bootstrap 5.1",
+            "para": "Fast, responsive sites with Bootstrap.",
+            "btnColor": "btn-primary",
             "btnUrl": "/",
             "btnText": "Learn more...",
             "animationDelay": 100
         },
         {
             "iconColor": "text-danger", 
-            "icon": "bi-bullseye",
-            "title": "Pug Supported",
-            "para": "Compiles to HTML and has a simplified syntax.",
-            "btnColor": "btn-danger",
+            "icon": "bi-ui-checks-grid",
+            "title": "Tailwind CSS",
+            "para": "The write less, do more with JavaScript Library.",
+            "btnColor": "btn-warning",
             "btnUrl": "/",
             "btnText": "Learn more...",
             "animationDelay": 200
         },
         {
-            "iconColor": "text-info", 
-            "icon": "bi-braces",
-            "title": "SCSS Featured",
+            "iconColor": "text-warning", 
+            "icon": "bi bi-grid",
+            "title": "Material UI",
             "para": "The stable & powerful grade CSS.",
             "btnColor": "btn-dark",
             "btnUrl": "/",
             "btnText": "Learn more...",
             "animationDelay": 300
+        },
+        {
+            "iconColor": "text-info", 
+            "icon": "bi-braces",
+            "title": "PHP",
+            "para": "The stable & powerful grade CSS.",
+            "btnColor": "btn-dark",
+            "btnUrl": "/",
+            "btnText": "Learn more...",
+            "animationDelay": 400
+        },
+        {
+            "iconColor": "text-danger", 
+            "icon": "bi bi-check2",
+            "title": "Laravel",
+            "para": "The stable & powerful grade CSS.",
+            "btnColor": "btn-dark",
+            "btnUrl": "/",
+            "btnText": "Learn more...", 
+            "animationDelay": 500
+        },
+        {
+            "iconColor": "text-success", 
+            "icon": "bi-check2-all",
+            "title": "Wordpress",
+            "para": "The stable & powerful grade CSS.",
+            "btnColor": "btn-dark",
+            "btnUrl": "/",
+            "btnText": "Learn more...",
+            "animationDelay": 600
         }
     ]
 
@@ -60,9 +90,9 @@ export default function FeatureTwo() {
                         <p>
                             {ele.para}
                         </p>
-                        <a className={`btn ${ele.btnColor} btn-minimal`} href={ele.btnUrl} >
+                        {/* <a className={`btn ${ele.btnColor} btn-minimal`} href={ele.btnUrl} >
                             {ele.btnText}
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </ScrollAnimation>
