@@ -14,14 +14,13 @@ export default function PortfolioOne() {
 
     useEffect(() => {
         const fetchPortfolio = async () => {
-            try{
-            const [portfolioTextResponse] = await (await fetch(BackEndUrl+"/api/home-portfolio-info?_format=json")).json();
-            const portfolioProjectsResponse = await (await fetch(BackEndUrl+"/api/portfolio-projects?_format=json")).json();
-            setPortfolioText(portfolioTextResponse);
-            setportfolioProjects(portfolioProjectsResponse);
-            }catch(e)
-            {
-                console.log("Internet Connection Problem",e);
+            try {
+                const [portfolioTextResponse] = await (await fetch(BackEndUrl + "/api/home-portfolio-info?_format=json")).json();
+                const portfolioProjectsResponse = await (await fetch(BackEndUrl + "/api/portfolio-projects?_format=json")).json();
+                setPortfolioText(portfolioTextResponse);
+                setportfolioProjects(portfolioProjectsResponse);
+            } catch (e) {
+                console.log("Internet Connection Problem", e);
             }
         }
         fetchPortfolio();
@@ -125,7 +124,12 @@ export default function PortfolioOne() {
                         </TinySlider>
                     </div>
                 </div>
-                : <h3>Loading Projects</h3>}
+                : <div className="text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            }
 
         </div>
     )

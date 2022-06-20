@@ -10,11 +10,14 @@ export default function ContactForm() {
     const [subject, setSubject] = React.useState();
     const [message, setMessage] = React.useState();
 
-
+    const [loading, setLoading] = React.useState(false);
+    const [failer, setFailer] = React.useState(false);
+    const [successs, setSuccesss] = React.useState(false);
 
 
 
     const sendMessage = (e) => {
+      
         e.preventDefault();
         const data = {
             'webform_id': 'contact',
@@ -38,31 +41,35 @@ export default function ContactForm() {
 
 
 
+        
+            setLoading(true);
+            axios.get('https://www.admin.mayonity.com/session/token').then(result => {
 
 
-        axios.get('https://www.admin.mayonity.com/session/token').then(result => {
+                if (200 === result.status) {
+                    const csrfToken = result.data;
 
-            if (200 === result.status) {
-                const csrfToken = result.data;
-
-                fetch('https://www.admin.mayonity.com/webform_rest/submit?_format=json', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRF-Token': csrfToken
-                    },
-                    body: JSON.stringify(data),
-                })
-                    .then(response => {
-
-                         setName(null);
-                         setEmail(null)
-                    }, (error) => {
-                        console.log('error', error);
+                    fetch('https://www.admin.mayonity.com/webform_rest/submit?_format=json', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRF-Token': csrfToken
+                        },
+                        body: JSON.stringify(data),
                     })
+                        .then(response => {
+                            setLoading(false);
+                            setSuccesss(true);
+                        })
 
-            }
-        });
+                }
+                
+            }).catch((e)=>{
+                    setLoading(false);
+                    setFailer(true);
+            });
+
+     
 
 
 
@@ -73,6 +80,20 @@ export default function ContactForm() {
         <div className="contact-form">
             <form onSubmit={sendMessage} >
                 <div className="row">
+
+                    <div className={`alert alert-warning alert-dismissible  ${loading ? "" : "d-none"}`} role="alert">
+                        Processing. . .
+                    </div>
+
+                    <div className={`alert alert-success alert-dismissible  ${successs ? "d-block" : "d-none"}`} role="alert">
+                        Your requested <b>submited successfully.</b><br /> you can also contact via whatsapp "+923454671224"
+                    </div>
+
+                    <div className={`alert alert-danger alert-dismissible  ${failer ? "d-block" : "d-none"}`} role="alert">
+                        Oops, <b>Something went to Wrong,</b><br />
+                        Kindly contact via whatsapp "+923454671224"
+                    </div>
+
                     {/* Form Control */}
                     <div className="col-12 col-lg-6">
                         <label className="form-label" htmlFor="name">Full Name:</label>
@@ -99,38 +120,15 @@ export default function ContactForm() {
 
                     {/* Form Control */}
                     <div className="col-12 text-center">
-                        <button className="btn btn-primary w-100" type="submit">Send Now</button>
+                        <button className={`btn btn-primary w-100 ${loading ? "d-none" : ""}`} type="submit">Send Now</button>
+                        <button className={`btn btn-primary w-100 ${loading ? "" : "d-none"}`} type="button" disabled>
+                            <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Processing . . .
+                    </button>
                     </div>
                 </div>
             </form>
-{/* test modal*/}
- <br />
- <br />
- <br />
- 
-<button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
- 
-<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="modal-body">
-    is this working fine i am  here
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" className="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-{/* end test modal */}
         </div>
     )
 }
