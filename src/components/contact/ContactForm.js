@@ -58,8 +58,13 @@ export default function ContactForm() {
                         body: JSON.stringify(data),
                     })
                         .then(response => {
+                         
                             setLoading(false);
                             setSuccesss(true);
+                            setName("");
+                            setSubject("")
+                            setEmail("")
+                            setMessage("")
                         })
 
                 }
@@ -97,25 +102,25 @@ export default function ContactForm() {
                     {/* Form Control */}
                     <div className="col-12 col-lg-6">
                         <label className="form-label" htmlFor="name">Full Name:</label>
-                        <input className="form-control mb-30" onChange={e => setName(e.target.value)} id="name" type="text" placeholder="Jhon Smith" name="name" required />
+                        <input className="form-control mb-30" value={name} onChange={e => setName(e.target.value)} id="name" type="text" placeholder="Jhon Smith" name="name" required />
                     </div>
 
                     {/* Form Control */}
                     <div className="col-12 col-lg-6">
                         <label className="form-label" htmlFor="email">Email Address:</label>
-                        <input className="form-control mb-30" onChange={e => setEmail(e.target.value)} id="email" type="email" placeholder="user@gmail.com" name="email" required />
+                        <input className="form-control mb-30" value={email} onChange={e => setEmail(e.target.value)} id="email" type="email" placeholder="user@gmail.com" name="email" required />
                     </div>
 
                     {/* Form Control */}
                     <div className="col-12">
                         <label className="form-label" htmlFor="subject">Phone:</label>
-                        <input className="form-control mb-30" onChange={e => setSubject(e.target.value)} id="topics" type="number" placeholder="Phone with country code " name="topics" />
+                        <input className="form-control mb-30" value={subject} onChange={e => setSubject(e.target.value)} id="topics" type="number" placeholder="Phone with country code " name="topics" />
                     </div>
 
                     {/* Form Control */}
                     <div className="col-12">
                         <label className="form-label" htmlFor="message">Message:</label>
-                        <textarea className="form-control mb-30" onChange={e => setMessage(e.target.value)} id="message" name="message" placeholder="Message" defaultValue={""} />
+                        <textarea className="form-control mb-30" value={message} onChange={e => setMessage(e.target.value)} id="message" name="message" placeholder="Message" defaultValue={""} />
                     </div>
 
                     {/* Form Control */}

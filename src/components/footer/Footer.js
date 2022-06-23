@@ -28,19 +28,19 @@ export default function Footer(props) {
                             },
                             {
                                 title: "GenShare", 
-                                url: "#"
+                                url: "https://creative-phoenix-ffb806.netlify.app/"
                             },
                             {
                                 title: "TV Dashboard", 
-                                url: "#"
+                                url: "https://stately-cassata-dbe595.netlify.app/"
                             },
                             {
                                 title: "Guestimate", 
-                                url: "#"
+                                url: "https://vermillion-alfajores-e18f9e.netlify.app/"
                             },
                             {
-                                title: " Mayonity", 
-                                url: "#"
+                                title: " PixLip", 
+                                url: "http://enchanted-leg.surge.sh/"
                             }
                         ]}
                     />
@@ -63,11 +63,11 @@ export default function Footer(props) {
                             },
                             {
                                 title: "Terms & Conditions", 
-                                url: "/coming-soon"
+                                url: "/terms-conditions"
                             },
                             {
                                 title: "Privacy Policy", 
-                                url: "/coming-soon"
+                                url: "/privacy-policy"
                             }
                         ]}
                     />
@@ -80,31 +80,31 @@ export default function Footer(props) {
                         email="Email: official@mayonity.com" 
                         social={[
                             {
-                                url: "#", 
+                                url: "/coming-soon", 
                                 tootipPosition: "top", 
                                 title: "Facebook", 
                                 iconName: "bi-facebook"
                             },
                             {
-                                url: "#", 
+                                url: "/coming-soon", 
                                 tootipPosition: "top", 
                                 title: "Twitter", 
                                 iconName: "bi-twitter"
                             },
                             {
-                                url: "#", 
+                                url: "/coming-soon", 
                                 tootipPosition: "top", 
                                 title: "Instagram", 
                                 iconName: "bi-instagram"
                             },
                             {
-                                url: "#", 
+                                url: "/coming-soon", 
                                 tootipPosition: "top", 
                                 title: "Linkedin", 
                                 iconName: "bi-linkedin"
                             },
                             {
-                                url: "#", 
+                                url: "/coming-soon", 
                                 tootipPosition: "top", 
                                 title: "YouTube", 
                                 iconName: "bi-youtube"

@@ -5,10 +5,10 @@ export default function FooterWidgetNav(props) {
 
     const listItems = footerNav.map((item, index) => 
         <li key={index}> 
-            <Link to={item.url}>
+            <a href={item.url} target="_blank">
                 <i className="bi bi-caret-right" />
                 {item.title}
-            </Link>
+            </a>
         </li>
     )
 

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ce5e451.chunk.css",
+    "main.js": "/static/js/main.e6f6129e.chunk.js",
+    "main.js.map": "/static/js/main.e6f6129e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.122776e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.122776e2.js.map",
+    "static/css/2.898ef955.chunk.css": "/static/css/2.898ef955.chunk.css",
+    "static/js/2.c56ed28a.chunk.js": "/static/js/2.c56ed28a.chunk.js",
+    "static/js/2.c56ed28a.chunk.js.map": "/static/js/2.c56ed28a.chunk.js.map",
+    "static/js/3.4b991926.chunk.js": "/static/js/3.4b991926.chunk.js",
+    "static/js/3.4b991926.chunk.js.map": "/static/js/3.4b991926.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.898ef955.chunk.css.map": "/static/css/2.898ef955.chunk.css.map",
+    "static/css/main.0ce5e451.chunk.css.map": "/static/css/main.0ce5e451.chunk.css.map",
+    "static/js/2.c56ed28a.chunk.js.LICENSE.txt": "/static/js/2.c56ed28a.chunk.js.LICENSE.txt",
+    "static/media/all-css-libraries.css": "/static/media/zw.62f25c22.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.122776e2.js",
+    "static/css/2.898ef955.chunk.css",
+    "static/js/2.c56ed28a.chunk.js",
+    "static/css/main.0ce5e451.chunk.css",
+    "static/js/main.e6f6129e.chunk.js"
+  ]
+}

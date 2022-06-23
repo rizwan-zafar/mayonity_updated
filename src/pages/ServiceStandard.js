@@ -151,8 +151,9 @@ export default function ServiceStandard() {
                 </div>
             </div>
             <br /><br /><br />
-            <VideoCard
+            <VideoCard 
                 bgImage="assets/img/backimages/servicescta.jpg"
+                videoId="knkkjQH6p5g"
              />
 
             <CtaThree
